@@ -5,7 +5,7 @@ Restart your Node.js app on crashes or edits
 ##Installation
 
 
-`npm install noderestarter -g`
+`sudo npm install noderestarter -g`
 
 
 Make sure to add the `-g` or else it won't work. This lets you call noderestarter without the path.
@@ -14,7 +14,7 @@ Make sure to add the `-g` or else it won't work. This lets you call noderestarte
 ##Usage
 
 
-Assuming you installed it globally (`npm install noderestarter -g`) you can type `noderestarter` + options + the app file you want to run + any arguments you want to send your app. Make sure the app you're running and its arguments come after the noderestarter options.
+Assuming you installed it globally (`sudo npm install noderestarter -g`) you can type `noderestarter` + options + the app file you want to run + any arguments you want to send your app. Make sure the app you're running and its arguments come after the noderestarter options.
 
 
 `noderestarter [restart] [watch] yourapp.js [your app args]`
