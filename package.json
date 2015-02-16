@@ -1,0 +1,35 @@
+{
+  "name": "noderestarter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/benwasser/noderestarter",
+  "author": {
+    "name": "Ben Wasser",
+    "url": "http://benwasser.com"
+  },
+  "bin": {
+    "noderestarter": "noderestarter.js"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benwasser/noderestarter.git"
+  },
+  "description": "Restart your Node.js app on crashes or edits",
+  "keywords": [
+    "restart",
+    "crash",
+    "watch",
+    "watchfile",
+    "edit"
+  ],
+  "preferGlobal": "true",
+  "licenses": [
+    {
+      "type": "Unlicense",
+      "url": "http://unlicense.org/"
+    }
+  ],
+  "main": "noderestarter.js"
+}
